@@ -10922,4 +10922,14 @@ lounge02_jp.gat#que_avan01.gat#
 lounge02_jp.rsw#que_avan01.rsw#
 유저인터페이스\map\lounge02_jp.bmp#유저인터페이스\map\gon_test.bmp#
 //--------------------------------------------------------------------
+1@uns.gnd#1@uns.gnd#
+1@uns.gat#1@uns.gat#
+1@uns.rsw#1@uns.rsw#
+유저인터페이스\map\1@uns.bmp#유저인터페이스\map\1@uns.bmp#
+
+1@lab.gnd#1@lab.gnd#
+1@lab.gat#1@lab.gat#
+1@lab.rsw#1@lab.rsw#
+유저인터페이스\map\1@lab.bmp#유저인터페이스\map\1@lab.bmp#
+//--------------------------------------------------------------------
 //[file end]

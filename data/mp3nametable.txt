@@ -1,4 +1,4 @@
-login#bgm\\113.mp3#
+login#bgm\\163.mp3#
 dewata.rsw#bgm\\142.mp3#
 dew_in01.rsw#bgm\\143.mp3#
 dew_fild01.rsw#bgm\\143.mp3#
@@ -3408,5 +3408,17 @@ jp_ev_map14.rsw#bgm\\22.mp3#
 lounge00_jp.rsw#bgm\\146.mp3#
 lounge01_jp.rsw#bgm\\146.mp3#
 lounge02_jp.rsw#bgm\\146.mp3#
+//------------------------------------------------
+ver_eju.rsw#bgm\\89.mp3#
+ver_tunn.rsw#bgm\\89.mp3#
+verus04.rsw#bgm\\164.mp3#
+verus03.rsw#bgm\\164.mp3#
+verus01.rsw#bgm\\161.mp3#
+verus02.rsw#bgm\\161.mp3#
+un_bk_q.rsw#bgm\\122.mp3#
+un_bunker.rsw#bgm\\124.mp3#
+un_myst.rsw#bgm\\121.mp3#
+1@uns.rsw#bgm\\163.mp3#
+1@lab.rsw#bgm\\162.mp3#
 //------------------------------------------------
 //[file end]

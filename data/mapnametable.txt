@@ -2887,4 +2887,16 @@ lounge00_jp.rsw#ラウンジ B1F#
 lounge01_jp.rsw#ラウンジ 1F#
 lounge02_jp.rsw#ラウンジ 2F#
 //------------------------------------------------
+ver_eju.rsw#ジュピロス東側#
+ver_tunn.rsw#ウェルス外郭トンネル#
+verus04.rsw#ウェルス発掘地#
+verus03.rsw#ウェルス中央広場#
+verus01.rsw#実験棟-OPTATIO#
+verus02.rsw#研究棟-WISH#
+un_bk_q.rsw#地下シェルター(メモリーレコード)#
+un_bunker.rsw#地下シェルター#
+un_myst.rsw#地下トンネル#
+1@uns.rsw#最後の部屋#
+1@lab.rsw#中央実験室#
+//------------------------------------------------
 //[file end]
