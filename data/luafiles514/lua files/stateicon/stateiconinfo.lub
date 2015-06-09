@@ -153,7 +153,7 @@ StateIconList[EFST_IDs.EFST_GIANTGROWTH] = {
 			"%s",
 			{ 255, 176, 98 }
 		},
-		{ "Str増加" },
+		{ "Str + 30" },
 		{ "通常攻撃時、一定確率で" },
 		{ "3倍のダメージを与え" },
 		{ "稀に武器が破損する" }
@@ -171,7 +171,7 @@ StateIconList[EFST_IDs.EFST_REFRESH] = {
 			"%s",
 			{ 255, 176, 98 }
 		},
-		{ "多くの状態異常無効化" }
+		{ "多くの状態異常にならない" }
 	}
 }
 StateIconList[EFST_IDs.EFST_ENCHANTBLADE] = {
@@ -202,7 +202,7 @@ StateIconList[EFST_IDs.EFST_ABUNDANCE] = {
 			"%s",
 			{ 255, 176, 98 }
 		},
-		{ "一定量SP回復" }
+		{ "10秒毎にSP60回復" }
 	}
 }
 StateIconList[EFST_IDs.EFST_VITALITYACTIVATION] = {
@@ -217,9 +217,9 @@ StateIconList[EFST_IDs.EFST_VITALITYACTIVATION] = {
 			"%s",
 			{ 255, 176, 98 }
 		},
-		{ "ポーションのHP回復量増加" },
-		{ "ポーションのSP回復量減少" },
-		{ "SP自然回復不可" }
+		{ "一部の回復アイテムやヒールなどによるHP回復量増加" },
+		{ "一部の回復アイテムによるSP回復量減少" },
+		{ "SP自然回復量 - 100%" }
 	}
 }
 StateIconList[EFST_IDs.EFST_STONEHARDSKIN] = {
@@ -236,8 +236,8 @@ StateIconList[EFST_IDs.EFST_STONEHARDSKIN] = {
 		},
 		{ "Def増加" },
 		{ "Mdef増加" },
-		{ "一定確率で攻撃してきた" },
-		{ "敵の武器を破壊" }
+		{ "攻撃してきた敵の武器を" },
+		{ "一定確率で破壊する" }
 	}
 }
 StateIconList[EFST_IDs.EFST_AUTOGUARD] = {
@@ -4899,19 +4899,18 @@ StateIconList[EFST_IDs.EFST_JP_EVENT01] = {
 	posTimeLimitStr = 2,
 	descript = {
 		{
-			"沙羅ぁ麺の出前",
+			"ピラミッドパワー",
 			{ 155, 202, 155 }
 		},
 		{
 			"%s",
 			{ 255, 176, 98 }
 		},
-		{ "制限時間内に出前を完了させよう。" },
-		{ "沙羅ぁ麺がのびる前に" },
-		{ "お客様に届けるんだッッ！" },
-		{ "という強い使命感により" },
-		{ "「ノピティギ」と「タイリギ」が" },
-		{ "使用できる！" }
+		{ "ピラミッドダンジョン" },
+		{ "スフィンクスダンジョン" },
+		{ "ピラミッドダンジョン 秘密の地下室" },
+		{ "に出現するモンスターに対して" },
+		{ "物理・魔法ダメージ増加" }
 	}
 }
 StateIconList[EFST_IDs.EFST_JP_EVENT02] = {
@@ -6066,14 +6065,17 @@ StateIconList[EFST_IDs.EFST_PACKING_ENVELOPE1] = {
 	posTimeLimitStr = 2,
 	descript = {
 		{
-			"No Text",
+			"シャルロシーの応援",
 			{ 155, 202, 155 }
 		},
 		{
 			"%s",
 			{ 255, 176, 98 }
 		},
-		{ "No Text" }
+		{ "チャールストン工場に出現する" },
+		{ "モンスターに対して" },
+		{ "物理・魔法ダメージ増加、" },
+		{ "受けるダメージ減少" }
 	}
 }
 StateIconList[EFST_IDs.EFST_PACKING_ENVELOPE2] = {
@@ -6081,17 +6083,17 @@ StateIconList[EFST_IDs.EFST_PACKING_ENVELOPE2] = {
 	posTimeLimitStr = 2,
 	descript = {
 		{
-			"ベルカナの増幅",
+			"シャルロシーの祝福",
 			{ 155, 202, 155 }
 		},
 		{
 			"%s",
 			{ 255, 176, 98 }
 		},
-		{ "物理や魔法で" },
-		{ "与えるダメージ減少" },
-		{ "近接物理攻撃を受けた時、" },
-		{ "ミレニアムシールドが発動" }
+		{ "チャールストン工場に出現する" },
+		{ "モンスターに対して" },
+		{ "物理・魔法ダメージ増加、" },
+		{ "受けるダメージ減少" }
 	}
 }
 StateIconList[EFST_IDs.EFST_PACKING_ENVELOPE3] = {
@@ -6106,7 +6108,7 @@ StateIconList[EFST_IDs.EFST_PACKING_ENVELOPE3] = {
 			"%s",
 			{ 255, 176, 98 }
 		},
-		{ "ノックバックしない" }
+		{ "絶対にノックバックしない" }
 	}
 }
 StateIconList[EFST_IDs.EFST_PACKING_ENVELOPE4] = {
@@ -6121,8 +6123,8 @@ StateIconList[EFST_IDs.EFST_PACKING_ENVELOPE4] = {
 			"%s",
 			{ 255, 176, 98 }
 		},
-		{ "str増加" },
-		{ "int減少" }
+		{ "Str + 30" },
+		{ "Int + 30" }
 	}
 }
 StateIconList[EFST_IDs.EFST_PACKING_ENVELOPE5] = {
@@ -6137,7 +6139,7 @@ StateIconList[EFST_IDs.EFST_PACKING_ENVELOPE5] = {
 			"%s",
 			{ 255, 176, 98 }
 		},
-		{ "一定量SP回復" }
+		{ "10秒毎にSP40回復" }
 	}
 }
 StateIconList[EFST_IDs.EFST_PACKING_ENVELOPE6] = {
@@ -6183,7 +6185,7 @@ StateIconList[EFST_IDs.EFST_PACKING_ENVELOPE8] = {
 			"%s",
 			{ 255, 176, 98 }
 		},
-		{ "一定量HP回復" }
+		{ "10秒毎にHP500回復" }
 	}
 }
 StateIconList[EFST_IDs.EFST_PACKING_ENVELOPE9] = {
@@ -6332,10 +6334,11 @@ StateIconList[EFST_IDs.EFST_HELM_VERKANA] = {
 			"%s",
 			{ 255, 176, 98 }
 		},
-		{ "物理や魔法で" },
-		{ "与えるダメージ減少" },
+		{ "物理攻撃で与えるダメージ - 50%" },
+		{ "遠距離物理攻撃で与えるダメージ - 50%" },
+		{ "魔法攻撃で与えるダメージ - 50%" },
 		{ "近接物理攻撃を受けた時、" },
-		{ "ミレニアムシールドが発動" }
+		{ "一定確率でスキル「ミレニアムシールド」が発動" }
 	}
 }
 StateIconList[EFST_IDs.EFST_HELM_RHYDO] = {
@@ -6350,7 +6353,7 @@ StateIconList[EFST_IDs.EFST_HELM_RHYDO] = {
 			"%s",
 			{ 255, 176, 98 }
 		},
-		{ "ノックバックしない" }
+		{ "絶対にノックバックしない" }
 	}
 }
 StateIconList[EFST_IDs.EFST_HELM_TURISUS] = {
@@ -6365,8 +6368,8 @@ StateIconList[EFST_IDs.EFST_HELM_TURISUS] = {
 			"%s",
 			{ 255, 176, 98 }
 		},
-		{ "str増加" },
-		{ "int減少" }
+		{ "Str + 30" },
+		{ "Int - 30" }
 	}
 }
 StateIconList[EFST_IDs.EFST_HELM_HAGALAS] = {
@@ -6381,7 +6384,8 @@ StateIconList[EFST_IDs.EFST_HELM_HAGALAS] = {
 			"%s",
 			{ 255, 176, 98 }
 		},
-		{ "物理攻撃反射" }
+		{ "近接物理攻撃で" },
+		{ "受けたダメージの10%を反射" }
 	}
 }
 StateIconList[EFST_IDs.EFST_HELM_ISIA] = {
@@ -6396,7 +6400,7 @@ StateIconList[EFST_IDs.EFST_HELM_ISIA] = {
 			"%s",
 			{ 255, 176, 98 }
 		},
-		{ "一定量HP回復" }
+		{ "10秒毎にHP500回復" }
 	}
 }
 StateIconList[EFST_IDs.EFST_HELM_ASIR] = {
@@ -6411,8 +6415,8 @@ StateIconList[EFST_IDs.EFST_HELM_ASIR] = {
 			"%s",
 			{ 255, 176, 98 }
 		},
-		{ "atk増加" },
-		{ "攻撃速度増加" }
+		{ "Atk + 10" },
+		{ "攻撃速度 + 10%" }
 	}
 }
 StateIconList[EFST_IDs.EFST_HELM_URJ] = {
@@ -6427,7 +6431,7 @@ StateIconList[EFST_IDs.EFST_HELM_URJ] = {
 			"%s",
 			{ 255, 176, 98 }
 		},
-		{ "一定量SP回復" }
+		{ "10秒毎にSP40回復" }
 	}
 }
 StateIconList[EFST_IDs.EFST_ITEM_ATKMAX] = {
