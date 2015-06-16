@@ -6434,6 +6434,590 @@ StateIconList[EFST_IDs.EFST_HELM_URJ] = {
 		{ "10秒毎にSP40回復" }
 	}
 }
+StateIconList[EFST_IDs.EFST_EXTRACT_SALAMINE_JUICE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{
+			"濃縮サラマインジュース",
+			{ 155, 202, 155 }
+		},
+		{
+			"%s",
+			{ 255, 176, 98 }
+		},
+		{ "攻撃速度増加" }
+	}
+}
+StateIconList[EFST_IDs.EFST_PROMOTE_HEALTH_RESERCH] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{
+			"HP増加ポーション",
+			{ 155, 202, 155 }
+		},
+		{
+			"%s",
+			{ 255, 176, 98 }
+		},
+		{ "MaxHP増加" }
+	}
+}
+StateIconList[EFST_IDs.EFST_ENERGY_DRINK_RESERCH] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{
+			"SP増加ポーション",
+			{ 155, 202, 155 }
+		},
+		{
+			"%s",
+			{ 255, 176, 98 }
+		},
+		{ "MaxSP増加" }
+	}
+}
+StateIconList[EFST_IDs.EFST_EXTRACT_WHITE_POTION_Z] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{
+			"濃縮ホワイトポーションZ",
+			{ 155, 202, 155 }
+		},
+		{
+			"%s",
+			{ 255, 176, 98 }
+		},
+		{ "HP自然回復増加" }
+	}
+}
+StateIconList[EFST_IDs.EFST_VITATA_500] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{
+			"ビタタ500",
+			{ 155, 202, 155 }
+		},
+		{
+			"%s",
+			{ 255, 176, 98 }
+		},
+		{ "SP自然回復増加" },
+		{ "MaxSP増加" }
+	}
+}
+StateIconList[EFST_IDs.EFST_EXPIATIO] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{
+			"エクスピアティオ",
+			{ 155, 202, 155 }
+		},
+		{
+			"%s",
+			{ 255, 176, 98 }
+		},
+		{ "装備物理防御無視" }
+	}
+}
+StateIconList[EFST_IDs.EFST_CRUSHSTRIKE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{
+			"クラッシュストライク",
+			{ 155, 202, 155 }
+		},
+		{
+			"%s",
+			{ 255, 176, 98 }
+		},
+		{ "次に与える通常攻撃の" },
+		{ "威力増加" }
+	}
+}
+StateIconList[EFST_IDs.EFST_STASIS] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{
+			"ステイシス状態",
+			{ 250, 100, 100 }
+		},
+		{
+			"%s",
+			{ 255, 176, 98 }
+		}
+	}
+}
+StateIconList[EFST_IDs.EFST_MAGNETICFIELD] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{
+			"マグネティックフィールド状態",
+			{ 250, 100, 100 }
+		},
+		{
+			"%s",
+			{ 255, 176, 98 }
+		}
+	}
+}
+StateIconList[EFST_IDs.EFST_VACUUM_EXTREME] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{
+			"バキュームエクストリーム状態",
+			{ 250, 100, 100 }
+		},
+		{
+			"%s",
+			{ 255, 176, 98 }
+		}
+	}
+}
+StateIconList[EFST_IDs.EFST_BODYSTATE_STONECURSE] = {
+	haveTimeLimit = 0,
+	descript = {
+		{
+			"石化状態",
+			{ 250, 100, 100 }
+		}
+	}
+}
+StateIconList[EFST_IDs.EFST_BODYSTATE_FREEZING] = {
+	haveTimeLimit = 0,
+	descript = {
+		{
+			"凍結状態",
+			{ 250, 100, 100 }
+		}
+	}
+}
+StateIconList[EFST_IDs.EFST_BODYSTATE_STUN] = {
+	haveTimeLimit = 0,
+	descript = {
+		{
+			"スタン状態",
+			{ 250, 100, 100 }
+		}
+	}
+}
+StateIconList[EFST_IDs.EFST_BODYSTATE_SLEEP] = {
+	haveTimeLimit = 0,
+	descript = {
+		{
+			"睡眠状態",
+			{ 250, 100, 100 }
+		}
+	}
+}
+StateIconList[EFST_IDs.EFST_BODYSTATE_STONECURSE_ING] = {
+	haveTimeLimit = 0,
+	descript = {
+		{
+			"石化進行中",
+			{ 250, 100, 100 }
+		}
+	}
+}
+StateIconList[EFST_IDs.EFST_BODYSTATE_BURNNING] = {
+	haveTimeLimit = 0,
+	descript = {
+		{
+			"発火状態",
+			{ 250, 100, 100 }
+		}
+	}
+}
+StateIconList[EFST_IDs.EFST_BODYSTATE_IMPRISON] = {
+	haveTimeLimit = 0,
+	descript = {
+		{
+			"ホワイトインプリズン状態",
+			{ 250, 100, 100 }
+		}
+	}
+}
+StateIconList[EFST_IDs.EFST_HEALTHSTATE_POISON] = {
+	haveTimeLimit = 0,
+	descript = {
+		{
+			"毒状態",
+			{ 250, 100, 100 }
+		}
+	}
+}
+StateIconList[EFST_IDs.EFST_HEALTHSTATE_CURSE] = {
+	haveTimeLimit = 0,
+	descript = {
+		{
+			"呪い状態",
+			{ 250, 100, 100 }
+		}
+	}
+}
+StateIconList[EFST_IDs.EFST_HEALTHSTATE_SILENCE] = {
+	haveTimeLimit = 0,
+	descript = {
+		{
+			"沈黙状態",
+			{ 250, 100, 100 }
+		}
+	}
+}
+StateIconList[EFST_IDs.EFST_HEALTHSTATE_CONFUSION] = {
+	haveTimeLimit = 0,
+	descript = {
+		{
+			"混乱状態",
+			{ 250, 100, 100 }
+		}
+	}
+}
+StateIconList[EFST_IDs.EFST_HEALTHSTATE_HEAVYPOISON] = {
+	haveTimeLimit = 0,
+	descript = {
+		{
+			"猛毒状態",
+			{ 250, 100, 100 }
+		}
+	}
+}
+StateIconList[EFST_IDs.EFST_HEALTHSTATE_FEAR] = {
+	haveTimeLimit = 0,
+	descript = {
+		{
+			"恐怖状態",
+			{ 250, 100, 100 }
+		}
+	}
+}
+StateIconList[EFST_IDs.EFST_CURSEDCIRCLE_TARGET] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{
+			"呪縛陣状態",
+			{ 250, 100, 100 }
+		},
+		{
+			"%s",
+			{ 255, 176, 98 }
+		}
+	}
+}
+StateIconList[EFST_IDs.EFST_MANDRAGORA] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{
+			"精神衝撃状態",
+			{ 250, 100, 100 }
+		},
+		{
+			"%s",
+			{ 255, 176, 98 }
+		}
+	}
+}
+StateIconList[EFST_IDs.EFST_ATTACK_PROPERTY_NOTHING] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{
+			"武器属性付与",
+			{ 155, 202, 155 }
+		},
+		{
+			"%s",
+			{ 255, 176, 98 }
+		},
+		{ "無属性" }
+	}
+}
+StateIconList[EFST_IDs.EFST_ATTACK_PROPERTY_WATER] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{
+			"武器属性付与",
+			{ 155, 202, 155 }
+		},
+		{
+			"%s",
+			{ 255, 176, 98 }
+		},
+		{ "水属性" }
+	}
+}
+StateIconList[EFST_IDs.EFST_ATTACK_PROPERTY_GROUND] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{
+			"武器属性付与",
+			{ 155, 202, 155 }
+		},
+		{
+			"%s",
+			{ 255, 176, 98 }
+		},
+		{ "地属性" }
+	}
+}
+StateIconList[EFST_IDs.EFST_ATTACK_PROPERTY_FIRE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{
+			"武器属性付与",
+			{ 155, 202, 155 }
+		},
+		{
+			"%s",
+			{ 255, 176, 98 }
+		},
+		{ "火属性" }
+	}
+}
+StateIconList[EFST_IDs.EFST_ATTACK_PROPERTY_WIND] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{
+			"武器属性付与",
+			{ 155, 202, 155 }
+		},
+		{
+			"%s",
+			{ 255, 176, 98 }
+		},
+		{ "風属性" }
+	}
+}
+StateIconList[EFST_IDs.EFST_ATTACK_PROPERTY_POISON] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{
+			"武器属性付与",
+			{ 155, 202, 155 }
+		},
+		{
+			"%s",
+			{ 255, 176, 98 }
+		},
+		{ "毒属性" }
+	}
+}
+StateIconList[EFST_IDs.EFST_ATTACK_PROPERTY_SAINT] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{
+			"武器属性付与",
+			{ 155, 202, 155 }
+		},
+		{
+			"%s",
+			{ 255, 176, 98 }
+		},
+		{ "聖属性" }
+	}
+}
+StateIconList[EFST_IDs.EFST_ATTACK_PROPERTY_DARKNESS] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{
+			"武器属性付与",
+			{ 155, 202, 155 }
+		},
+		{
+			"%s",
+			{ 255, 176, 98 }
+		},
+		{ "闇属性" }
+	}
+}
+StateIconList[EFST_IDs.EFST_ATTACK_PROPERTY_TELEKINESIS] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{
+			"武器属性付与",
+			{ 155, 202, 155 }
+		},
+		{
+			"%s",
+			{ 255, 176, 98 }
+		},
+		{ "念属性" }
+	}
+}
+StateIconList[EFST_IDs.EFST_ATTACK_PROPERTY_UNDEAD] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{
+			"武器属性付与",
+			{ 155, 202, 155 }
+		},
+		{
+			"%s",
+			{ 255, 176, 98 }
+		},
+		{ "不死属性" }
+	}
+}
+StateIconList[EFST_IDs.EFST_RESIST_PROPERTY_NOTHING] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{
+			"無属性攻撃耐性",
+			{ 155, 202, 155 }
+		},
+		{
+			"%s",
+			{ 255, 176, 98 }
+		}
+	}
+}
+StateIconList[EFST_IDs.EFST_RESIST_PROPERTY_WATER] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{
+			"水属性攻撃耐性",
+			{ 155, 202, 155 }
+		},
+		{
+			"%s",
+			{ 255, 176, 98 }
+		}
+	}
+}
+StateIconList[EFST_IDs.EFST_RESIST_PROPERTY_GROUND] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{
+			"地属性攻撃耐性",
+			{ 155, 202, 155 }
+		},
+		{
+			"%s",
+			{ 255, 176, 98 }
+		}
+	}
+}
+StateIconList[EFST_IDs.EFST_RESIST_PROPERTY_FIRE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{
+			"火属性攻撃耐性",
+			{ 155, 202, 155 }
+		},
+		{
+			"%s",
+			{ 255, 176, 98 }
+		}
+	}
+}
+StateIconList[EFST_IDs.EFST_RESIST_PROPERTY_WIND] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{
+			"風属性攻撃耐性",
+			{ 155, 202, 155 }
+		},
+		{
+			"%s",
+			{ 255, 176, 98 }
+		}
+	}
+}
+StateIconList[EFST_IDs.EFST_RESIST_PROPERTY_POISON] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{
+			"毒属性攻撃耐性",
+			{ 155, 202, 155 }
+		},
+		{
+			"%s",
+			{ 255, 176, 98 }
+		}
+	}
+}
+StateIconList[EFST_IDs.EFST_RESIST_PROPERTY_SAINT] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{
+			"聖属性攻撃耐性",
+			{ 155, 202, 155 }
+		},
+		{
+			"%s",
+			{ 255, 176, 98 }
+		}
+	}
+}
+StateIconList[EFST_IDs.EFST_RESIST_PROPERTY_DARKNESS] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{
+			"闇属性攻撃耐性",
+			{ 155, 202, 155 }
+		},
+		{
+			"%s",
+			{ 255, 176, 98 }
+		}
+	}
+}
+StateIconList[EFST_IDs.EFST_RESIST_PROPERTY_TELEKINESIS] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{
+			"念属性攻撃耐性",
+			{ 155, 202, 155 }
+		},
+		{
+			"%s",
+			{ 255, 176, 98 }
+		}
+	}
+}
+StateIconList[EFST_IDs.EFST_RESIST_PROPERTY_UNDEAD] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{
+			"不死属性攻撃耐性",
+			{ 155, 202, 155 }
+		},
+		{
+			"%s",
+			{ 255, 176, 98 }
+		}
+	}
+}
 StateIconList[EFST_IDs.EFST_ITEM_ATKMAX] = {
 	descript = {
 		{
