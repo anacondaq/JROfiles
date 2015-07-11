@@ -6541,6 +6541,22 @@ StateIconList[EFST_IDs.EFST_CRUSHSTRIKE] = {
 		{ "威力増加" }
 	}
 }
+StateIconList[EFST_IDs.EFST_EXEEDBREAK] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{
+			"イクシードブレイク",
+			{ 155, 202, 155 }
+		},
+		{
+			"%s",
+			{ 255, 176, 98 }
+		},
+		{ "次に与える通常攻撃の" },
+		{ "威力増加" }
+	}
+}
 StateIconList[EFST_IDs.EFST_STASIS] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
