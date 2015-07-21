@@ -1361,5 +1361,11 @@ ACCESSORY_IDs = {
 	ACCESSORY_Mask_of_Hero = 1367,
 	ACCESSORY_Parfait_V_Hat = 1368,
 	ACCESSORY_C_Flower_Summer_Hat = 1369,
-	ACCESSORY_Moon_Eyepatch = 1370
+	ACCESSORY_Moon_Eyepatch = 1370,
+	ACCESSORY_Straight_Pony_BL = 1371,
+	ACCESSORY_Cowlick_BL = 1372,
+	ACCESSORY_Loose_Wave_Twin_BL = 1373,
+	ACCESSORY_Melon_Helmet = 1374,
+	ACCESSORY_Unicorn_Helm = 1375,
+	ACCESSORY_ZHERLTHSH_DOLL = 1376
 }

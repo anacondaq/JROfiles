@@ -1357,5 +1357,11 @@ AccNameTable = {
 	[ACCESSORY_IDs.ACCESSORY_Mask_of_Hero] = "_영웅의마스크",
 	[ACCESSORY_IDs.ACCESSORY_Parfait_V_Hat] = "_파르펠레자경단모자",
 	[ACCESSORY_IDs.ACCESSORY_C_Flower_Summer_Hat] = "_C플라워섬머햇",
-	[ACCESSORY_IDs.ACCESSORY_Moon_Eyepatch] = "_달의_안대"
+	[ACCESSORY_IDs.ACCESSORY_Moon_Eyepatch] = "_달의안대",
+	[ACCESSORY_IDs.ACCESSORY_Straight_Pony_BL] = "_스트레이트포니_검정",
+	[ACCESSORY_IDs.ACCESSORY_Cowlick_BL] = "_삐침머리_검정",
+	[ACCESSORY_IDs.ACCESSORY_Loose_Wave_Twin_BL] = "_루즈웨이브트윈_검정",
+	[ACCESSORY_IDs.ACCESSORY_Melon_Helmet] = "_멜론헬멧",
+	[ACCESSORY_IDs.ACCESSORY_Unicorn_Helm] = "_유니콘헬름",
+	[ACCESSORY_IDs.ACCESSORY_ZHERLTHSH_DOLL] = "_지르타스인형"
 }

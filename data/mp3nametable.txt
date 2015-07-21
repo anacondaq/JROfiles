@@ -1,4 +1,4 @@
-login#bgm\\00.mp3#
+login#bgm\\145.mp3#
 dewata.rsw#bgm\\142.mp3#
 dew_in01.rsw#bgm\\143.mp3#
 dew_fild01.rsw#bgm\\143.mp3#
@@ -1420,7 +1420,6 @@ egg_hunt04.rsw#bgm\\85.mp3#
 egg_hunt05.rsw#bgm\\85.mp3#
 //------------------------------------------------
 jp_ev_map50.rsw#bgm\\126.mp3#
-jp_ev_map51.rsw#bgm\\103.mp3#
 jp_ev_map52.rsw#bgm\\999.mp3#
 jp_ev_map53.rsw#bgm\\146.mp3#
 //------------------------------------------------
@@ -2522,7 +2521,6 @@ arup_cas04.rsw#bgm\\66.mp3#
 arup_cas05.rsw#bgm\\66.mp3#
 //------------------------------------------------
 jp_ev_map64.rsw#bgm\\78.mp3#
-jp_ev_map65.rsw#bgm\\78.mp3#
 //------------------------------------------------
 //ナイトメアおもちゃ工場
 1@xm_d.rsw#bgm\\997.mp3#
@@ -2560,11 +2558,6 @@ ma_dun01_q.rsw#bgm\\150.mp3#
 4@rjc_d.rsw#bgm\\37.mp3#
 //------------------------------------------------
 jp_ev_map66.rsw#bgm\\133.mp3#
-1@maze.rsw#bgm\\42.mp3#
-3@maze.rsw#bgm\\88.mp3#
-4@maze.rsw#bgm\\130.mp3#
-5@maze.rsw#bgm\\113.mp3#
-6@maze.rsw#bgm\\06.mp3#
 //------------------------------------------------
 pud_land.rsw#bgm\\991.mp3#
 1@pda.rsw#bgm\\992.mp3#
@@ -3513,5 +3506,20 @@ rjc_room06.rsw#bgm\\102.mp3#
 rjc_room07.rsw#bgm\\102.mp3#
 rjc_room08.rsw#bgm\\102.mp3#
 rjc_room09.rsw#bgm\\102.mp3#
+//------------------------------------------------
+jp_ev_map51.rsw#bgm\\144.mp3#
+jp_ev_map65.rsw#bgm\\134.mp3#
+1@maq1.rsw#bgm\\49.mp3#
+2@maq1.rsw#bgm\\35.mp3#
+3@maq1.rsw#bgm\\158.mp3#
+4@maq1.rsw#bgm\\123.mp3#
+1@maq2.rsw#bgm\\49.mp3#
+2@maq2.rsw#bgm\\35.mp3#
+3@maq2.rsw#bgm\\158.mp3#
+4@maq2.rsw#bgm\\123.mp3#
+1@maq3.rsw#bgm\\49.mp3#
+2@maq3.rsw#bgm\\35.mp3#
+3@maq3.rsw#bgm\\158.mp3#
+4@maq3.rsw#bgm\\123.mp3#
 //------------------------------------------------
 //[file end]
